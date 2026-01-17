@@ -5,7 +5,7 @@ client = Client("http://localhost:8000/mcp")
 
 async def call_tool(name: str):
     async with client:
-        result = await client.call_tool("greet", {"name": name})
+        result = await client.call_tool("wish_greet_new", {"name": name})
         print(result)
 
 asyncio.run(call_tool("Ford"))
