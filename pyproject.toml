@@ -12,5 +12,5 @@ dependencies = [
 
 [tool.uv.workspace]
 members = [
-    "mcp-client",
+    "cli_project",
 ]
